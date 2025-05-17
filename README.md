@@ -1,3 +1,7 @@
+
+-> pip install -r requirements.txt
+-> run GUIxCODE.py
+
 # 🔒 CryptoVault - Hybrid File Encryption Toolkit
 
 <div align="center">
@@ -19,6 +23,4 @@ graph LR
     B --> C[Kunci AES Terenkripsi]
     C --> D{RSA Enkripsi}
     D --> E[File Aman]
-
--> pip install -r requirements.txt
--> run GUIxCODE.py
+=
