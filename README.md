@@ -2,6 +2,7 @@
 -> pip install -r requirements.txt
 -> run GUIxCODE.py
 
+
 # 🔒 CryptoVault - Hybrid File Encryption Toolkit
 
 <div align="center">
@@ -19,8 +20,7 @@ Menggabungkan kecepatan AES (128/192/256-bit) dengan keamanan RSA (1024/2048/409
 
 ```mermaid
 graph LR
-    A[File Original] --> B{AES-256 Enkripsi} 
+    A[File Original] --> B[AES-256 Enkripsi]
     B --> C[Kunci AES Terenkripsi]
-    C --> D{RSA Enkripsi}
+    C --> D[RSA Enkripsi]
     D --> E[File Aman]
-=
